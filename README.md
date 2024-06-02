@@ -1,0 +1,1 @@
+# Makine_Ogrenmesi_Algoritmalarinin_Uygulanisi
