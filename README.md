@@ -109,7 +109,7 @@ Tabloda siyahlar ve beyazlar olmak üzere iki farklı sınıf var. Sınıflandı
 
 ![image](https://github.com/emircanakyuz/Makine_Ogrenmesi_Algoritmalarinin_Uygulanisi/assets/95855820/a6199175-018a-4c35-9f72-dbc265a04726)
 
-## Eğitimler Sonucunda Modellerin Performans Metriklerini Değerlendirilmesi
+## Eğitimler Sonucunda Modellerin Performans Metriklerinin Değerlendirilmesi
 4 farklı algoritmanın eğitimi sonucunda doğruluk oranları 0.7-0.8 aralığında gidip geldi.. Bu algoritmalardan en yüksek doğruluk oranına sahip olan sistem sizin de tahmin edeceğiniz üzere çok katmanlı algılayıcı olarak adlandırdığımız ve yapay sinir ağlarının temel taşı olarak bilinen MLP algoritması oldu. Gizli katmanlarının sayısının ya da katmanlardaki nöron sayılarının arttırılması/azalması gibi faktörlerin de performansında etkili olduğu bilinen bu model, çalışmamızda en yakın takipçisine 0.3 fark attı (ROC Eğrisi baz alınmıştır). Tüm algoritmaların performanslarına bir göz atmadan önce, kullandığımız ölçütlerin neleri ifade ettiğini özetlemek isterim:
 
 ### 1. Confusion Matrix
@@ -146,7 +146,7 @@ Gerçek negatiflerin ne kadarının doğru tahmin edildiğini gösterir.
 
 Precision ve Recall'un harmonik ortalamasıdır.
 
-Bunlar haricinde confusion matrix ile model analizi de yapabiliriz.
+Bunlar haricinde confusion matrix ile model analizi de yapabiliriz:
 - Yüksek False Positive: Model, negatif örnekleri pozitif olarak sınıflandırma eğilimindedir. Bu, sahte alarmlara yol açabilir.
 - Yüksek False Negative: Model, pozitif örnekleri negatif olarak sınıflandırma eğilimindedir. Bu, önemli pozitif örneklerin gözden kaçmasına neden olabilir.
 
